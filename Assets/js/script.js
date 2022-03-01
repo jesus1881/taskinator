@@ -230,8 +230,8 @@ var loadTasks = function () {
     savedTask = JSON.parse(task);
 
     // loop through saved task array
-    for (var i = 0; i < savedTasks.length; i++) {
-        createTaskEl(savedTasks[i]);
+    for (var i = 0; i < savedTask.length; i++) {
+        createTaskEl(savedTask[i]);
     }
 
 }
